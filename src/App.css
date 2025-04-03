@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background: hsla(202, 71%, 27%, 1);
 
@@ -16,7 +17,7 @@
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#145277", endColorstr="#83d0cb", GradientType=1);
 }
 
-.link-git {
+.links {
   border: 2px solid black;
   border-radius: 10px;
   width: 40%;
@@ -31,5 +32,20 @@
   background-color: rgb(65, 65, 65);
   color: aliceblue;
   font-size: 28px;
-   
+  transition: 0.2s;
 }
+
+.links:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+.links:active {
+  scale: 1;
+  transition: 0.2s;
+}
+
+.links:visited {
+  color: rgb(0, 255, 213);
+}
+
