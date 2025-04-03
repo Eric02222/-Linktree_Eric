@@ -1,0 +1,35 @@
+.container-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: hsla(202, 71%, 27%, 1);
+
+  background: linear-gradient(225deg, hsla(202, 71%, 27%, 1) 31%, hsla(176, 45%, 66%, 1) 100%);
+
+  background: -moz-linear-gradient(225deg, hsla(202, 71%, 27%, 1) 31%, hsla(176, 45%, 66%, 1) 100%);
+
+  background: -webkit-linear-gradient(225deg, hsla(202, 71%, 27%, 1) 31%, hsla(176, 45%, 66%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#145277", endColorstr="#83d0cb", GradientType=1);
+}
+
+.link-git {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  background-color: rgb(65, 65, 65);
+  color: aliceblue;
+  font-size: 28px;
+   
+}
